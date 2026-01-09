@@ -1,0 +1,27 @@
+name: Update class schedule
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/generate_schedule.py
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate schedule
+        run: python scripts/generate_schedule.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git commit -am "Auto-update class schedule" || true
+          git push
