@@ -13,7 +13,7 @@ HOLIDAYS = {
 TOTAL_CLASSES = 28
 MEETING_DAYS = {1, 3}  # Tuesday=1, Thursday=3
 
-LINK_TEMPLATE = "lectures/class-{num:02d}/"
+LINK_TEMPLATE = "{num:02d}_"
 
 README_PATH = "README.md"
 
