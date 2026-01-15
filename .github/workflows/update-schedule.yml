@@ -17,7 +17,7 @@ jobs:
           python-version: "3.11"
 
       - name: Generate schedule
-        run: python scripts/generate_schedule.py
+        run: python .github/scripts/generate_schedule.py
 
       - name: Commit changes
         run: |
