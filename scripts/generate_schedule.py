@@ -1,4 +1,6 @@
 from datetime import date, timedelta
+import os
+import re
 
 # ======================
 # CONFIG (EDIT THESE)
@@ -13,13 +15,34 @@ HOLIDAYS = {
 TOTAL_CLASSES = 28
 MEETING_DAYS = {1, 3}  # Tuesday=1, Thursday=3
 
-LINK_TEMPLATE = "{num:02d}_"
+LINK_TEMPLATE = "{num:02d}"
 
 README_PATH = "README.md"
 
 # ======================
 # LOGIC
 # ======================
+
+def get_material_folders():
+    """
+    Returns a list of folder names starting with 01–28, sorted numerically.
+    Example: ['01-intro', '02-sets', ..., '28-final']
+    """
+    folders = []
+
+    for name in os.listdir("."):
+        if os.path.isdir(name):
+            match = re.match(r"^(0[1-9]|1[0-9]|2[0-8])\b", name)
+            if match:
+                folders.append(name)
+
+    # sort by the leading number
+    folders.sort(key=lambda x: int(x[:2]))
+    return folders
+
+
+material_folders = get_material_folders()
+
 
 def first_class_day(start):
     d = start
@@ -41,9 +64,9 @@ table_lines = [
 ]
 
 for i, d in enumerate(dates, start=1):
-    link = LINK_TEMPLATE.format(num=i)
+    folder = material_folders[i - 1] if i - 1 < len(material_folders) else ""
     table_lines.append(
-        f"| {i} | {d.strftime('%B %d, %Y')} | [{link}]({link}) |"
+        f"| {i} | {d.strftime('%B %d, %Y')} | [{folder}]({folder}) |"
     )
 
 table = "\n".join(table_lines)
