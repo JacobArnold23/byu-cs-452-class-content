@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - scripts/generate_schedule.py
+      - .github/scripts/generate_schedule.py
 
 jobs:
   build:
