@@ -57,14 +57,14 @@ while len(dates) < TOTAL_CLASSES:
     current += timedelta(days=1)
 
 table_lines = [
-    "| Class Date | Materials |",
-    "|------------|-----------|",
+    "| Class Date | Relevant Modules | Homework |",
+    "|------------|------------------|----------|",
 ]
 
 for i, d in enumerate(dates, start=1):
     folder = material_folders[i - 1] if i - 1 < len(material_folders) else ""
     table_lines.append(
-        f"| {d.strftime('%B %d, %Y')} | [{folder}]({folder}) |"
+        f"| {d.strftime('%B %d, %Y')} | [{folder}]({folder}) | [{folder}]({folder})"
     )
 
 table = "\n".join(table_lines)
