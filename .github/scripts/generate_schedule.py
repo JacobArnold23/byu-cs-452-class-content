@@ -1,6 +1,4 @@
 from datetime import date, timedelta
-import os
-import re
 
 # ======================
 # CONFIG (EDIT THESE)
@@ -18,28 +16,31 @@ MEETING_DAYS = {1, 3}  # Tuesday=1, Thursday=3
 README_PATH = "README.md"
 
 # ======================
+# MODULE SCHEDULE
+# folder_name : [class_numbers where it applies]
+# EDIT THIS SECTION
+# ======================
+
+MODULE_DAYS = {
+    # examples
+    "01-intro": [1],
+    "02-sets": [2,3],
+    "03-functions": [3,4,5],
+}
+
+# ======================
 # LOGIC
 # ======================
 
-def get_material_folders():
+def modules_for_class(class_number):
     """
-    Returns a list of folder names starting with 01–28, sorted numerically.
-    Example: ['01-intro', '02-sets', ..., '28-final']
+    Returns list of folders relevant for a given class number.
     """
-    folders = []
-
-    for name in os.listdir("."):
-        if os.path.isdir(name):
-            match = re.match(r"^(0[1-9]|1[0-9]|2[0-8])", name)
-            if match:
-                folders.append(name)
-
-    # sort by the leading number
-    folders.sort(key=lambda x: int(x[:2]))
-    return folders
-
-
-material_folders = get_material_folders()
+    return [
+        folder
+        for folder, days in MODULE_DAYS.items()
+        if class_number in days
+    ]
 
 
 def first_class_day(start):
@@ -47,6 +48,7 @@ def first_class_day(start):
     while d.weekday() not in MEETING_DAYS:
         d += timedelta(days=1)
     return d
+
 
 dates = []
 current = first_class_day(SEMESTER_START)
@@ -56,15 +58,22 @@ while len(dates) < TOTAL_CLASSES:
         dates.append(current)
     current += timedelta(days=1)
 
+
 table_lines = [
     "| Class Date | Relevant Modules | Homework |",
     "|------------|------------------|----------|",
 ]
 
 for i, d in enumerate(dates, start=1):
-    folder = material_folders[i - 1] if i - 1 < len(material_folders) else ""
+
+    modules = modules_for_class(i)
+
+    module_links = " ".join(
+        f"[{m}]({m})" for m in modules
+    )
+
     table_lines.append(
-        f"| {d.strftime('%B %d, %Y')} | [{folder}]({folder}) | [{folder}]({folder})"
+        f"| {d.strftime('%B %d, %Y')} | {module_links} | {module_links}"
     )
 
 table = "\n".join(table_lines)
