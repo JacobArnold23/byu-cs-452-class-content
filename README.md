@@ -26,8 +26,8 @@ Movies - Atlas MongoDB starter DB
 | February 03, 2026 | [[erd-examples]](02-erd-examples) | 
 | February 05, 2026 | [[erd-examples]](02-erd-examples) | 
 | February 10, 2026 | [[erd-examples]](02-erd-examples) | 
-| February 12, 2026 | [[erd-examples]](02-erd-examples) • [[ai-sql]](03-ai-sql) | 
-| February 19, 2026 | [[ai-sql]](03-ai-sql) | 
+| February 12, 2026 | [[erd-examples]](02-erd-examples) • [[ai-sql]](03-ai-sql) • [[chatgpt-samples]](04-chatgpt-samples) | 
+| February 19, 2026 | [[ai-sql]](03-ai-sql) • [[chatgpt-samples]](04-chatgpt-samples) | 
 | February 24, 2026 |  | 
 | February 26, 2026 |  | 
 | March 03, 2026 |  | 
