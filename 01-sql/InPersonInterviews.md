@@ -1,7 +1,7 @@
 # In-Person SQL Interviews
 
-Sign up with a TA and retake the exam as many times as needed until you get the score you like.
-Note that it is better to do these in-person rather than online and at leas the **Medium Without Hints Interview is REQUIRED** to be done in person.
+Sign up with a TA and retake the exam as many times as needed until you get the score you like.     
+Note that it is better to do these in-person rather than online and at least the **Medium Without Hints Interview is REQUIRED** to be done in person.
 
 ---
 
