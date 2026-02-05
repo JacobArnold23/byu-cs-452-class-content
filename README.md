@@ -18,16 +18,16 @@ Movies - Atlas MongoDB starter DB
 |------------|------------------|----------|
 | January 06, 2026 | [[sql]](01-sql) | 
 | January 08, 2026 | [[sql]](01-sql) | 
-| January 13, 2026 | [[sql]](01-sql) • [[functions]](03-functions) | 
-| January 15, 2026 | [[sql]](01-sql) • [[functions]](03-functions) | 
-| January 22, 2026 | [[sql]](01-sql) • [[erd-examples]](02-erd-examples) • [[functions]](03-functions) | 
+| January 13, 2026 | [[sql]](01-sql) | 
+| January 15, 2026 | [[sql]](01-sql) | 
+| January 22, 2026 | [[sql]](01-sql) • [[erd-examples]](02-erd-examples) | 
 | January 27, 2026 | [[sql]](01-sql) • [[erd-examples]](02-erd-examples) | 
 | January 29, 2026 | [[sql]](01-sql) • [[erd-examples]](02-erd-examples) | 
 | February 03, 2026 | [[erd-examples]](02-erd-examples) | 
 | February 05, 2026 | [[erd-examples]](02-erd-examples) | 
 | February 10, 2026 | [[erd-examples]](02-erd-examples) | 
-| February 12, 2026 |  | 
-| February 19, 2026 |  | 
+| February 12, 2026 | [[erd-examples]](02-erd-examples) • [[ai-sql]](03-ai-sql) | 
+| February 19, 2026 | [[ai-sql]](03-ai-sql) | 
 | February 24, 2026 |  | 
 | February 26, 2026 |  | 
 | March 03, 2026 |  | 
