@@ -23,8 +23,8 @@ README_PATH = "README.md"
 
 MODULE_DAYS = {
     # examples
-    "01-intro": [1],
-    "02-sets": [2,3],
+    "01-sql": [1,2,3,4,5,6,7],
+    "02-erd-examples": [5,6,7,8,9,10],
     "03-functions": [3,4,5],
 }
 
