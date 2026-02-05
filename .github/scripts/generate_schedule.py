@@ -73,7 +73,7 @@ for i, d in enumerate(dates, start=1):
     )
 
     table_lines.append(
-        f"| {d.strftime('%B %d, %Y')} | {module_links} | {module_links}"
+        f"| {d.strftime('%B %d, %Y')} | {module_links} | "
     )
 
 table = "\n".join(table_lines)
