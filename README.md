@@ -16,16 +16,16 @@ Movies - Atlas MongoDB starter DB
 
 | Class Date | Relevant Modules | Homework |
 |------------|------------------|----------|
-| January 06, 2026 | [[01-sql]](01-sql) | [[01-sql]](01-sql)
-| January 08, 2026 | [[01-sql]](01-sql) | [[01-sql]](01-sql)
-| January 13, 2026 | [[01-sql]](01-sql) • [[03-functions]](03-functions) | [[01-sql]](01-sql) • [[03-functions]](03-functions)
-| January 15, 2026 | [[01-sql]](01-sql) • [[03-functions]](03-functions) | [[01-sql]](01-sql) • [[03-functions]](03-functions)
-| January 22, 2026 | [[01-sql]](01-sql) • [[02-erd-examples]](02-erd-examples) • [[03-functions]](03-functions) | [[01-sql]](01-sql) • [[02-erd-examples]](02-erd-examples) • [[03-functions]](03-functions)
-| January 27, 2026 | [[01-sql]](01-sql) • [[02-erd-examples]](02-erd-examples) | [[01-sql]](01-sql) • [[02-erd-examples]](02-erd-examples)
-| January 29, 2026 | [[01-sql]](01-sql) • [[02-erd-examples]](02-erd-examples) | [[01-sql]](01-sql) • [[02-erd-examples]](02-erd-examples)
-| February 03, 2026 | [[02-erd-examples]](02-erd-examples) | [[02-erd-examples]](02-erd-examples)
-| February 05, 2026 | [[02-erd-examples]](02-erd-examples) | [[02-erd-examples]](02-erd-examples)
-| February 10, 2026 | [[02-erd-examples]](02-erd-examples) | [[02-erd-examples]](02-erd-examples)
+| January 06, 2026 | [[sql]](01-sql) | [[sql]](01-sql)
+| January 08, 2026 | [[sql]](01-sql) | [[sql]](01-sql)
+| January 13, 2026 | [[sql]](01-sql) • [[functions]](03-functions) | [[sql]](01-sql) • [[functions]](03-functions)
+| January 15, 2026 | [[sql]](01-sql) • [[functions]](03-functions) | [[sql]](01-sql) • [[functions]](03-functions)
+| January 22, 2026 | [[sql]](01-sql) • [[erd-examples]](02-erd-examples) • [[functions]](03-functions) | [[sql]](01-sql) • [[erd-examples]](02-erd-examples) • [[functions]](03-functions)
+| January 27, 2026 | [[sql]](01-sql) • [[erd-examples]](02-erd-examples) | [[sql]](01-sql) • [[erd-examples]](02-erd-examples)
+| January 29, 2026 | [[sql]](01-sql) • [[erd-examples]](02-erd-examples) | [[sql]](01-sql) • [[erd-examples]](02-erd-examples)
+| February 03, 2026 | [[erd-examples]](02-erd-examples) | [[erd-examples]](02-erd-examples)
+| February 05, 2026 | [[erd-examples]](02-erd-examples) | [[erd-examples]](02-erd-examples)
+| February 10, 2026 | [[erd-examples]](02-erd-examples) | [[erd-examples]](02-erd-examples)
 | February 12, 2026 |  | 
 | February 19, 2026 |  | 
 | February 24, 2026 |  | 
