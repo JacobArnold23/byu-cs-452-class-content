@@ -68,8 +68,8 @@ for i, d in enumerate(dates, start=1):
 
     modules = modules_for_class(i)
 
-    module_links = " ".join(
-        f"[[{m}]({m})]" for m in modules
+    module_links = "|".join(
+        f"[[{m}]]({m})" for m in modules
     )
 
     table_lines.append(
