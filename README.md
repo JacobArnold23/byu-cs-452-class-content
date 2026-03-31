@@ -14,12 +14,12 @@ Movies - Atlas MongoDB starter DB
 
 <!-- SCHEDULE_START -->
 
-| Class Date | Relevant Modules | Homework |
-|------------|------------------|----------|
-| January 06, 2026 | [[sql]](01-sql) | 
+| Class Date | Relevant Modules |
+|------------|------------------|
 | January 08, 2026 | [[sql]](01-sql) | 
 | January 13, 2026 | [[sql]](01-sql) | 
 | January 15, 2026 | [[sql]](01-sql) | 
+| January 20, 2026 | [[sql]](01-sql) | 
 | January 22, 2026 | [[sql]](01-sql) • [[erd-examples]](02-erd-examples) | 
 | January 27, 2026 | [[sql]](01-sql) • [[erd-examples]](02-erd-examples) | 
 | January 29, 2026 | [[sql]](01-sql) • [[erd-examples]](02-erd-examples) | 
@@ -43,7 +43,6 @@ Movies - Atlas MongoDB starter DB
 | April 07, 2026 |  | 
 | April 09, 2026 |  | 
 | April 14, 2026 |  | 
-| April 16, 2026 |  | 
 
 <!-- SCHEDULE_END -->
 
