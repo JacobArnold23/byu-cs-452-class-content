@@ -4,13 +4,12 @@ from datetime import date, timedelta
 # CONFIG (EDIT THESE)
 # ======================
 
-SEMESTER_START = date(2026, 1, 5)   # any weekday
+SEMESTER_START = date(2026, 1, 7)   # any weekday
 HOLIDAYS = {
-    date(2026, 1, 20),
     date(2026, 2, 17),
 }
 
-TOTAL_CLASSES = 28
+TOTAL_CLASSES = 27
 MEETING_DAYS = {1, 3}  # Tuesday=1, Thursday=3
 
 README_PATH = "README.md"
@@ -61,8 +60,8 @@ while len(dates) < TOTAL_CLASSES:
 
 
 table_lines = [
-    "| Class Date | Relevant Modules | Homework |",
-    "|------------|------------------|----------|",
+    "| Class Date | Relevant Modules |",
+    "|------------|------------------|",
 ]
 
 for i, d in enumerate(dates, start=1):
