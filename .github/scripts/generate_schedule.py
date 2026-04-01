@@ -28,6 +28,12 @@ MODULE_DAYS = {
     "04-chatgpt-samples": [11,12],
     "05-vectordb": [12,13],
     "06-conference-rag": [14],
+    "07-neo4j": [15],
+    "08-redis": [16],
+    "09-system-design": [17],
+    "10-spark-sql": [18,19],
+    "11-mongodb": [20,21],
+    "12-final": [22,23,24,25,26,27],
 }
 
 # ======================
