@@ -32,11 +32,11 @@ Movies - Atlas MongoDB starter DB
 | February 26, 2026 | [[conference-rag]](06-conference-rag) | 
 | March 03, 2026 | [[neo4j]](07-neo4j) | 
 | March 05, 2026 | [[redis]](08-redis) | 
-| March 10, 2026 | [[system-design]](09-system-design) | 
+| March 10, 2026 | [[system-design]](09-system-design) • [[spark-sql]](10-spark-sql) | 
 | March 12, 2026 | [[spark-sql]](10-spark-sql) | 
-| March 17, 2026 | [[spark-sql]](10-spark-sql) | 
+| March 17, 2026 | [[mongodb]](11-mongodb) | 
 | March 19, 2026 | [[mongodb]](11-mongodb) | 
-| March 24, 2026 | [[mongodb]](11-mongodb) | 
+| March 24, 2026 | [[final]](12-final) | 
 | March 26, 2026 | [[final]](12-final) | 
 | March 31, 2026 | [[final]](12-final) | 
 | April 02, 2026 | [[final]](12-final) | 
